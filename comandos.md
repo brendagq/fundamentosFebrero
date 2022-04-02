@@ -5,3 +5,10 @@ git add -A : Me permite enviar todos los archivos en estado 'Untracked' hacia el
 git add 'nombreDelArchivo' : Envia SOLAMENTE al archivo indicado al staging area
 
 git commit -m "Mensaje de commit": Genera un nuevo commit con los archivos que se encontraban en el Staging Area. Se asocia uun mensaje que describe los cambios realizados con ese commit
+
+
+### Branches/Ramas
+
+git branch nombreDeLaRama :  Crea una nueva rama
+
+git checkout nombreDeLaRama : Nos movemos hacia una rama especifica
