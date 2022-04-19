@@ -12,3 +12,13 @@ git commit -m "Mensaje de commit": Genera un nuevo commit con los archivos que s
 git branch nombreDeLaRama :  Crea una nueva rama
 
 git checkout nombreDeLaRama : Nos movemos hacia una rama especifica
+
+
+1. Generar cambios
+2. Bajar cambios del repositorio remoto: git pull
+3. Arreglar conflictos
+4. Subir cambios: git push
+
+
+1. Ricardo Mallavo
+2. Samuel Baez
