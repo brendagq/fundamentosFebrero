@@ -1,0 +1,18 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-delete{
+    background-color: tomato;
+    color: white;
+}
+
+
+.pokemon-card{
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+}
