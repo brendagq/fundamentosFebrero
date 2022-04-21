@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <main id="contenedor">
+
+        <form id="search-pokemon">
+            <input type="text" placeholder="Nombre del pokemon" required>
+            <button type="submit">
+                <img src="./assets/css/pokebola.png" alt="">
+            </button>
+        </form>
+
+        <div id="pokemon-wrapper">
+            <img src="" alt="pokemon-image">
+            <h3>Nombre del pokemon</h3>
+        </div>
+
+        <div id="toast" class="oculto">
+            <p>Ups! algo salió mal, pokemon no encontrado</p>
+        </div>
+
+        <div id="loader" class="oculto">
+             <img src="./assets/css/meowth.png" alt="">   
+        </div>
+
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
